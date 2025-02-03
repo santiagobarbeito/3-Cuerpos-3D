@@ -103,7 +103,7 @@ function draw() {
 function mousePressed() {
   if (startScreen) {
     // Initialize audio
-    carrier.amp(0.25);
+    carrier.amp(0.0625);
     carrier.freq(carrierBaseFreq);
     carrier.start();
 
