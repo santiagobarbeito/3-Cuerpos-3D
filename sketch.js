@@ -75,7 +75,6 @@ function draw() {
     text("Hacé click para empezar", 0, 0);
     textSize(32);
     text("Mové la cámara con el mouse", 0, 100);
-    text("Zoom con flechas ↑ ↓", 0, 150);
   } else {
     background(0);
 
